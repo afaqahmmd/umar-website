@@ -13,22 +13,22 @@ export class FunFactsComponent {
   funFacts: FunFact[] = [
     {
       icon: 'icofont-home',
-      value: 3468,
-      label: 'Hospital Rooms',
+      value: 2009,
+      label: 'Founded',
     },
     {
       icon: 'icofont-user-alt-3',
-      value: 557,
-      label: 'Specialist Doctors',
+      value: 100,
+      label: 'Practices',
     },
     {
       icon: 'icofont-simple-smile',
-      value: 4379,
-      label: 'Happy Patients',
+      value: 22,
+      label: 'States',
     },
     {
       icon: 'icofont-table',
-      value: 32,
+      value: 10,
       label: 'Years of Experience',
     },
   ];

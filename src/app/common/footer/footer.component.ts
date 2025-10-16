@@ -21,9 +21,7 @@ export class FooterComponent {
   hospitalName = 'Hospital Name';
   aboutUs: AboutUs = {
     description:
-      'At ' +
-      this.hospitalName +
-      ', we are committed to providing exceptional healthcare services with a focus on compassion, expertise, and innovation. Our dedicated team of medical professionals is here to ensure that you and your loved ones receive the highest quality of care in a supportive and state-of-the-art environment.',
+      'Our company (Premier Care Billing LLC) has billed for more than 100+ practices in 22 states. Our medical billing expert team works with providers nationwide to decrease stress of the billing and, more important, to increase cash flow. Our management team collectively has more than five decades of experience in managing the revenue cycle of practices from different specialties.',
   };
 
   socialLinks: SocialLink[] = [
@@ -46,13 +44,9 @@ export class FooterComponent {
 
   openHours: OpenHours = {
     description:
-      'At ' +
-      this.hospitalName +
+      'At Premier Care Billing' +
       ', we are dedicated to being available when you need us most. Our team is here to provide excellent care during our convenient hours of operation.',
     hours: [
-      { day: 'Monday - Friday', time: '08:00 AM - 08:00 PM' },
-      { day: 'Saturday', time: '09:00 AM - 06:30 PM' },
-      { day: 'Sunday', time: 'Closed' },
     ],
   };
 }

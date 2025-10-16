@@ -13,36 +13,25 @@ export class SliderComponent {
   sliders: SliderItem[] = [
     {
       backgroundImage: 'assets/img/slider2.jpg',
-      title: 'Comprehensive',
-      subtitle: 'Healthcare Solutions',
+      title: 'Medical Billing',
+      subtitle: 'Simplified',
       description:
         'Experience the best in medical care, tailored to meet your individual needs. We are committed to your well-being.',
       buttons: [
-        { text: 'Get Appointment', link: '/appointment' },
-        { text: 'Learn More', link: '/appointment', isPrimary: true },
+        { text: 'I want to start', link: '/appointment' },
       ],
     },
     {
       backgroundImage: 'assets/img/slider.jpg',
-      title: 'Expert',
-      subtitle: 'Medical Care',
+      title: 'Free Practice',
+      subtitle: 'Consulting',
       description:
-        'Our team of specialists is dedicated to providing the highest quality care with compassion and expertise.',
+        'Let our consultants provide the best answers to your medical practice queries',
       buttons: [
-        { text: 'Get Appointment', link: '/appointment' },
-        { text: 'Learn More', link: '/appointment', isPrimary: true },
+        { text: 'Im interested', link: '/appointment' },
+     
       ],
     },
-    {
-      backgroundImage: 'assets/img/slider3.jpg',
-      title: 'Trusted',
-      subtitle: 'Health Services',
-      description:
-        'Trust us to be your partner in health. We offer a wide range of services to ensure your health is in good hands.',
-      buttons: [
-        { text: 'Get Appointment', link: '/appointment' },
-        { text: 'Learn More', link: '/appointment', isPrimary: true },
-      ],
-    },
+  
   ];
 }

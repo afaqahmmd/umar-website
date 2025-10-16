@@ -5,7 +5,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-schedule',
   standalone: true,
-  imports:[RouterLink],
+  imports: [RouterLink],
   templateUrl: './schedule.component.html',
   styles: ``,
 })
@@ -13,34 +13,31 @@ export class ScheduleComponent {
   scheduleItems: ScheduleItem[] = [
     {
       icon: 'fa fa-ambulance',
-      category: 'Emergency Services',
-      title: '24/7 Emergency Care',
+      category: '',
+      title: 'Front Office Management',
       description:
-        'Our emergency department is open 24/7 to provide immediate care for critical and urgent medical situations.',
-      linkText: 'LEARN MORE',
-      linkUrl: '/emergency-services',
+        'Front Office Management is a service that our company is known for. Our professional team is highly qualified when it comes to front office management and has earned us a large number of permanent retainers, given the excellent services that they have provided.',
+      linkText: '',
+      linkUrl: '',
+    },
+     {
+      icon: 'icofont-ui-clock',
+      category: '',
+      title: 'Medical Transcription',
+      description:
+        'Our professionally trained medical transcription experts work meticulously to ensure that your data is accurately transcribed. Premier Care Billing provides medical transcription services to hospitals, clinics, and solo-practices.',
+      linkText: '',
+      linkUrl: '',
     },
     {
       icon: 'icofont-prescription',
-      category: 'Appointments',
-      title: 'Doctor\'s Schedule',
+      category: '',
+      title: 'Medical Billing Management',
       description:
-        'Check our doctors’ availability and schedule your appointments at a convenient time.',
-      linkText: 'VIEW SCHEDULE',
-      linkUrl: '/doctors-schedule',
+        'Our professional Medical Billing Services are known for being precise and fastidious when it comes to coding, claim preparation, medical billing, and claim submission. Premier Care Billing is known for its expert and accurate medical billing services in the USA.',
+      linkText: '',
+      linkUrl: '',
     },
-    {
-      icon: 'icofont-ui-clock',
-      category: 'Visiting Hours',
-      title: 'Opening Hours',
-      timings: [
-        'Monday - Friday: 8:00 AM - 8:00 PM',
-        'Saturday: 9:00 AM - 6:30 PM',
-        'Sunday: 10:00 AM - 4:00 PM',
-      ],
-      linkText: 'LEARN MORE',
-      linkUrl: '/visiting-hours',
-    },
+   
   ];
-  
 }

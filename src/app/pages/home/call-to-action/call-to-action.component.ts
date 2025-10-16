@@ -14,7 +14,7 @@ export class CallToActionComponent {
   callToActionData: CallToActionData = {
     phoneNumber: '1234 56789',
     description:
-      'If you or a loved one requires urgent medical care, our team is ready to assist you 24/7. Call us immediately for expert help.',
+      'Subscribe to our newsletter and get the latest healthcare content right in your inbox',
     contactLink: '/contact', // Update with actual contact page or form link
     learnMoreLink: '/contact', // Update with a link to additional information
   };

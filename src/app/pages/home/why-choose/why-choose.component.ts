@@ -12,19 +12,21 @@ import { NgFor } from '@angular/common';
 })
 export class WhyChooseComponent {
   whyChooseData: WhyChooseData = {
-    sectionTitle: 'Why Choose Our Services?',
+    sectionTitle: 'Explore Premier Care Billing Service Plans and Cost',
     sectionImage: 'assets/img/section-img.png',
     sectionDescription:
-      'We are committed to delivering exceptional care with a personalized approach to each patient’s needs. Our team of dedicated professionals ensures the highest quality of care and the latest in medical advancements.',
+      'Our company (Premier Care Billing LLC) has considerable experience providing medical billing and other medical liaison services to over a hundred medical practices in 22 states. Don’t worry. Your practice is in safe hands! Our expert management team has over fifty years of collective experience and is expert in managing the revenue cycle of healthcare practices from different disciplines.',
     chooseLeft: {
-      title: 'Why Our Patients Trust Us',
+      title: 'Professional Medical Billing Services For All Specialities',
       content:
-        'Our clinic offers comprehensive medical services with a focus on personalized care. We combine state-of-the-art technology with compassionate service to provide outstanding patient experiences.',
+        'This is where Premier Care Billing stands out from other competitors in the market. Our professional medical billing services and other services cover all medical specialties. Our experts have been doing these for so long that everything from billing codes to transcription has become their second nature now.',
       listItems: [
-        'Experienced and certified medical professionals.',
-        'State-of-the-art facilities and technology.',
-        'Comprehensive and personalized patient care.',
-        'Convenient appointment scheduling and flexible hours.',
+        'Cardiology',
+        'Dermatology',
+        'Gastroenterology',
+        'Nephrology',
+        'Neurology',
+        'Orthopedic',
       ],
     },
     chooseRight: {

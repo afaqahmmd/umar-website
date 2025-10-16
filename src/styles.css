@@ -311,7 +311,9 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	height: 100px;
+	width: 100px;
+	margin-top: 10px;
 }
 .header .navbar {
 	background: none;
@@ -4169,6 +4171,52 @@ body{
 	display:inline-block;
 	margin-left:4px;
 }
+
+.testimonial-slider {
+  .single-testimonial {
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin: 10px !important;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+
+  .quote-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: contain;
+  }
+
+  .author-name {
+    font-weight: 600;
+    margin-top: 8px;
+    color: #222;
+  }
+
+  .author-position {
+    font-size: 0.9rem;
+    color: #777;
+  }
+}
+
 /*=========================
 	End Footer CSS
 ===========================*/
