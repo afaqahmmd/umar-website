@@ -328,6 +328,7 @@ body{
     float: left;
 	position:relative;
 }
+
 .header .nav li:last-child{
 	margin:0;
 }
@@ -336,7 +337,7 @@ body{
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: capitalize;
-	padding: 25px 12px;
+	padding: 20px 12px;
 	position: relative;
 	display: inline-block;
 	position:relative;
@@ -694,16 +695,20 @@ body{
 	Start Schedule CSS
 ===============================*/
 .schedule {
-	background: #fff;
-	margin: 0;
-	padding: 0;
-	height: 230px;
+  background: #fff;
+  margin: 0;
+  padding: 60px 0; /* add vertical padding instead of fixed height */
+  height: auto; /* allow it to grow naturally */
+  position: relative;
+  z-index: 1;
 }
+
 .schedule .schedule-inner {
-	position: relative;
-	transform: translateY(-50%);
-	z-index:9;
+  position: relative;
+  transform: none; /* remove translateY(-50%) */
+  z-index: 1;
 }
+
 .schedule .single-schedule {
 	position: relative;
 	text-align: left;

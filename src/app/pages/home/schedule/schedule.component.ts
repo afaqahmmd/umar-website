@@ -20,12 +20,12 @@ export class ScheduleComponent {
       linkText: '',
       linkUrl: '',
     },
-     {
+    {
       icon: 'icofont-ui-clock',
       category: '',
-      title: 'Medical Transcription',
+      title: 'Medical Credentialing',
       description:
-        'Our professionally trained medical transcription experts work meticulously to ensure that your data is accurately transcribed. Premier Care Billing provides medical transcription services to hospitals, clinics, and solo-practices.',
+        'Looking to get your practice licensed? Come to us and receive excellent medical credentialing services, and see for yourself why SybridMD is renowned for its services.',
       linkText: '',
       linkUrl: '',
     },
@@ -38,6 +38,32 @@ export class ScheduleComponent {
       linkText: '',
       linkUrl: '',
     },
-   
+    {
+      icon: 'fa fa-ambulance',
+      category: '',
+      title: 'Medical Coding',
+      description:
+        'Medical Coding is an extremely precision-demanding task. Once you give us the responsibility of medical coding, you can just sit back and relax and witness how efficaciously your revenue cycle management is impacted.',
+      linkText: '',
+      linkUrl: '',
+    },
+    {
+      icon: 'icofont-ui-clock',
+      category: '',
+      title: 'Medical Transcription',
+      description:
+        'Our professionally trained medical transcription experts work meticulously to ensure that your data is accurately transcribed. SybridMD provides medical transcription services to hospitals, clinics, and solo-practices.',
+      linkText: '',
+      linkUrl: '',
+    },
+    {
+      icon: 'icofont-prescription',
+      category: '',
+      title: 'Value Added',
+      description:
+        'Our Value-added services are a one-stop solution to everything and anything that your practice may require. We are always open for consultations!',
+      linkText: '',
+      linkUrl: '',
+    },
   ];
 }
