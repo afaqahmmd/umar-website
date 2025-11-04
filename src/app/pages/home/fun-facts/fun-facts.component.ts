@@ -13,7 +13,7 @@ export class FunFactsComponent {
   funFacts: FunFact[] = [
     {
       icon: 'icofont-home',
-      value: 2009,
+      value: 2021,
       label: 'Founded',
     },
     {
