@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="copyright-content">
               <p>
                 &copy; Copyright {{ currentYear }} | All Rights Reserved by
-                <a href="/home">Website</a>
+                Premier Care Billing
               </p>
             </div>
           </div>

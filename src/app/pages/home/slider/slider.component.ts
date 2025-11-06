@@ -16,7 +16,7 @@ export class SliderComponent {
       title: 'Medical Billing',
       subtitle: 'Simplified',
       description:
-        'Experience the best in medical care, tailored to meet your individual needs. We are committed to your well-being.',
+        '4-7% of Practice Collections - Based on Volume & Specialty. Our medical billing professionals improve collections, reduce account receivable & costs.',
       buttons: [
         { text: 'I want to start', link: '/appointment' },
       ],
