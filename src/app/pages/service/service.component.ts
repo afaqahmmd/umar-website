@@ -22,7 +22,7 @@ export class ServiceComponent {
       icon: 'icofont-prescription',
       title: 'Medical Coding Services',
       description:
-        'Providing professional billing services means we put coding as the foundation for the whole billing process. SybridMD employs certified medical coders to ensure your healthcare practice receives the best outcomes.',
+        'Providing professional billing services means we put coding as the foundation for the whole billing process. Premier Care Billing employs certified medical coders to ensure your healthcare practice receives the best outcomes.',
     },
     {
       icon: 'icofont-prescription',

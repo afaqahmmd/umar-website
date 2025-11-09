@@ -25,7 +25,7 @@ export class ScheduleComponent {
       category: '',
       title: 'Medical Credentialing',
       description:
-        'Looking to get your practice licensed? Come to us and receive excellent medical credentialing services, and see for yourself why SybridMD is renowned for its services.',
+        'Looking to get your practice licensed? Come to us and receive excellent medical credentialing services, and see for yourself why Premier Care Billing is renowned for its services.',
       linkText: '',
       linkUrl: '',
     },
@@ -52,7 +52,7 @@ export class ScheduleComponent {
       category: '',
       title: 'Medical Transcription',
       description:
-        'Our professionally trained medical transcription experts work meticulously to ensure that your data is accurately transcribed. SybridMD provides medical transcription services to hospitals, clinics, and solo-practices.',
+        'Our professionally trained medical transcription experts work meticulously to ensure that your data is accurately transcribed. Premier Care Billing provides medical transcription services to hospitals, clinics, and solo-practices.',
       linkText: '',
       linkUrl: '',
     },
