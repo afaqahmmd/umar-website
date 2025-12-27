@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CustomSpinnerComponent } from '../../../common/utility/custom-spinner/custom-spinner.component';
 import { WhyChooseData } from '../../../data/why-choose.model';
-import { NgFor } from '@angular/common';
+import { NgFor, SlicePipe } from '@angular/common';
 
 @Component({
   selector: 'app-why-choose',
   standalone: true,
-  imports: [CustomSpinnerComponent, NgFor],
+  imports: [CustomSpinnerComponent, NgFor, SlicePipe],
   templateUrl: './why-choose.component.html',
   styles: ``,
 })
@@ -21,12 +21,18 @@ export class WhyChooseComponent {
       content:
         'This is where Premier Care Billing stands out from other competitors in the market. Our professional medical billing services and other services cover all medical specialties. Our experts have been doing these for so long that everything from billing codes to transcription has become their second nature now.',
       listItems: [
+        'Internal Medicine',
+        'Family Medicine',
+        'Psychiatry',
+        'Mental Health / Behavioral Health',
+        'Chiropractic',
+        'Podiatry (DPM)',
         'Cardiology',
-        'Dermatology',
-        'Gastroenterology',
-        'Nephrology',
+        'Orthopedics',
+        'Physical Therapy / Rehabilitation',
         'Neurology',
-        'Orthopedic',
+        'Dermatology',
+        'Obstetrics & Gynecology (OB/GYN)',
       ],
     },
     chooseRight: {

@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-12">
+			<div class="col-lg-7 col-12">
 				<!-- Start Choose Left -->
 				<div class="choose-left">
 					<h3>{{whyChooseData.chooseLeft.title}}</h3>
@@ -20,13 +20,13 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<ul class="list">
-								<li *ngFor="let item of whyChooseData.chooseLeft.listItems"><i
+								<li *ngFor="let item of whyChooseData.chooseLeft.listItems | slice:0:6"><i
 										class="fa fa-caret-right"></i>{{item}}</li>
 							</ul>
 						</div>
 						<div class="col-lg-6">
 							<ul class="list">
-								<li *ngFor="let item of whyChooseData.chooseLeft.listItems"><i
+								<li *ngFor="let item of whyChooseData.chooseLeft.listItems | slice:6:12"><i
 										class="fa fa-caret-right"></i>{{item}}</li>
 							</ul>
 						</div>
@@ -34,7 +34,7 @@
 				</div>
 				<!-- End Choose Left -->
 			</div>
-			<div class="col-lg-6 col-12">
+			<div class="col-lg-5 col-12">
 				<!-- Start Choose Right -->
 				<div class="choose-right">
 					<div class="video-image">
