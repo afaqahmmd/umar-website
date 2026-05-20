@@ -15,7 +15,7 @@ export class WhyChooseComponent {
     sectionTitle: 'Explore Premier Care Billing Service Plans and Cost',
     sectionImage: 'assets/img/section-img.png',
     sectionDescription:
-      'Our company (Premier Care Billing LLC) has considerable experience providing medical billing and other medical liaison services to over a hundred medical practices in 22 states. Don’t worry. Your practice is in safe hands! Our expert management team has over fifty years of collective experience and is expert in managing the revenue cycle of healthcare practices from different disciplines.',
+      'Our company (Premier Care Billing LLC) has considerable experience providing medical billing and other medical liaison services to over a hundred medical practices in 22 states. Don’t worry. Your practice is in safe hands! Our expert management team has over 10 years of collective experience and is expert in managing the revenue cycle of healthcare practices from different disciplines.',
     chooseLeft: {
       title: 'Professional Medical Billing Services For All Specialities',
       content:
