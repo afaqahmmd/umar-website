@@ -21,7 +21,7 @@ export class FooterComponent {
   hospitalName = 'Hospital Name';
   aboutUs: AboutUs = {
     description:
-      'Our company (Premier Care Billing LLC) has billed for more than 100+ practices in 22 states. Our medical billing expert team works with providers nationwide to decrease stress of the billing and, more important, to increase cash flow. Our management team collectively has more than five decades of experience in managing the revenue cycle of practices from different specialties.',
+      'Our company (Premier Care Billing LLC) has billed for more than 100+ practices in 22 states. Our medical billing expert team works with providers nationwide to decrease stress of the billing and, more important, to increase cash flow. Our management team collectively has more than five years of experience in managing the revenue cycle of practices from different specialties.',
   };
 
   socialLinks: SocialLink[] = [
